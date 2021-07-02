@@ -1,0 +1,31 @@
+
+public class LargestAmongThreeNumber {
+	
+	public static void main(String[] args)
+	{
+		int x = 1;
+		int y = 5;
+		int z = 9;
+		
+		if(x>y)
+		{
+			if(x>z)
+			{
+				System.out.println("X is the largest Number : "+x);
+			}
+			else
+			{
+				System.out.println("Z is largest Number : "+z);
+			}
+		}
+		else if(y>z)
+		{
+			System.out.println("Y is the largest Number : "+y);
+		}
+		else
+		{
+			System.out.println("Z is the largest Number : "+z);
+		}
+	}
+
+}

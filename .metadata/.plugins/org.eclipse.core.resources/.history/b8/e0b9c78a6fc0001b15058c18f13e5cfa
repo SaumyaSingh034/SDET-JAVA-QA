@@ -1,0 +1,17 @@
+
+public class RemoveJunkCharacters {
+	
+	public static void main(String[] args)
+	{
+		/**
+		 * Here we will be using Regular Expression-->
+		 * [^a-zA-Z0-9]
+		 */
+		String actual = "*&))(*&% SAUMYA^&**$)SIN*^^*GH((&&&&&& 847926710";
+		String checking = "A2AA22AA";
+		
+		System.out.println(actual.replaceAll("[^a-zA-Z0-9]", ""));
+		System.out.println(checking.replaceAll("[^0-9]", ""));
+	}
+
+}

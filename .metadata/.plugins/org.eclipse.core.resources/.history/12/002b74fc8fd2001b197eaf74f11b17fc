@@ -1,0 +1,19 @@
+
+public class CheckWhetherAlphabetOrNot {
+	
+	public static void main(String[] args)
+	{
+		String c = "$";
+		if(c.equalsIgnoreCase(c.replaceAll("[^a-zA-Z]", "")))
+		{
+			System.out.println("Given String is alphabet : "+c);
+		}
+		else
+		{
+			System.out.println("Given String is not alphabaet : "+c);
+		}
+		
+		
+	}
+
+}

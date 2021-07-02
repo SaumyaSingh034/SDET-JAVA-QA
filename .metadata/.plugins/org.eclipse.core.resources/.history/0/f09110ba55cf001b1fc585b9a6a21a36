@@ -1,0 +1,22 @@
+
+public class SwapTwoNumbers {
+	
+	public static void main(String[] args)
+	{
+		int a = 88;
+		int b = 99;
+		/**
+		 * This can be done by two methods.
+		 * 1 - Using 3rd variable
+		 * 
+		 * 2 - without using 3rd variable
+		 */
+		
+		
+		//Using temp variable
+		int temp;
+		System.out.println("Before Swapping---> Value of a : "+a);
+		System.out.println("Before Swapping---> Value of b : "+b);
+	}
+
+}

@@ -1,0 +1,30 @@
+
+public class StringReverse {
+	/**
+	 * 
+	 * @Author Saumya Singh
+	 * 
+	 * Interview Question---->
+	 * 1 - Reverse any string
+	 * 2 - Difference between String and String Buffer
+	 * 3 - Can we usr Reverse function with String?---> No
+	 */
+	
+	public static void main(String[] args)
+	{
+		String s = "Selenium";
+		int len = s.length(); //8
+		String rev = "";
+		for(int i= len-1;i>=0;i++)  // i=7
+		{
+			rev = rev + s.charAt(i);
+			System.out.println(s.charAt(i));
+		}
+		System.out.println(rev);
+		
+		System.out.println(s);
+		
+		
+	}
+
+}

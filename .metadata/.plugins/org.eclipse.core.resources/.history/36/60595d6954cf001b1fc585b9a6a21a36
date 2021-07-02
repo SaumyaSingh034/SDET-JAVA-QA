@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class printIntegerEnteredByUser {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any integer you want = ");
+		int num = sc.nextInt();
+		System.out.println("The integer entered by you is  = "+num);
+		
+
+	}
+
+}

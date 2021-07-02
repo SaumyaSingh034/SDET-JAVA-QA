@@ -1,0 +1,22 @@
+
+public class SwapNumbersWith_5_Logics {
+	
+	public static void main(String[] args)
+	{
+		int a = 10;
+		int b= 90;
+		
+		/*
+		 * Logic 1  - Using third variable
+		 */
+		System.out.println("Before Swapping variables --> a = "+a+" b = "+b);
+		int temp;
+		temp = a;
+		a = b;
+		b = temp;
+		
+		
+		System.out.println("After Swapping variables --> a = "+a+" b = "+b);
+	}
+
+}
