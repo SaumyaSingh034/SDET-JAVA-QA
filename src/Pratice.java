@@ -1,29 +1,25 @@
-import java.util.Scanner;
 
-public class Pratice {
-	
-	public static void main(String[] args)
-	{
-		int year = 1900;
-		
-		if( year % 4 == 0) {
-			if(year % 100 ==0)
-			{
-				if(year % 400 ==0)
-				{
-					System.out.println("Leap Year");
-				}
-				else
-				{
-					System.out.println("Not an leap Year");
-				}
-			}else
-			{
-				System.out.println("Leap Year");
-			}
-		}else
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Pratice
+{
+	public static void main(String args[]) 
+	{ 
+		for(int i=0;i<=5;i++)
 		{
-			System.out.println("Not an Leap Year");
+			for(int j=5-i;j>=1;j--)
+			{
+				System.out.print(" ");
+			}
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
 		}
-}
+		
+	} 
 }
